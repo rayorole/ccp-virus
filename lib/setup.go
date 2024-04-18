@@ -74,7 +74,7 @@ func Setup() {
 	// Make an assets directory, if it doesn't exist
 	os.Mkdir("assets", 0755)
 
-	DownloadFile("./assets/song.mp3", "https://nnmn.ummn.nu/api/v1/download?sig=pcqQwoq2xISBu%2F8NxrcTHURZ%2BvAKgZQJXfflBDyCm7ILj01CasGnIQASr2Ns6YqEcRhd8qg9GRFgUTMyoe9zbTwU420%2FM8bwp2SWhN%2BGC%2F1TPvisd5oEJjKWf5t9vXS9xdnZuj5MV9mp86O%2FjjYiYh6%2Bl%2FniOOFqNgGE%2FT%2FiIDtBuNWdDFb58GvNpoFCe9ljYJrbYq%2BglFHogHyTWN2Ec014hUeejL15x0JimFDxizRqxnlVV3hcIABrto1Fz5W2GJZ%2BXQiVI4%2F1ulw%2Fz%2B94NyWunJoi5770y71yeIrLBRK1dQpbA5VJZGwaT01im5KhQYsKKJtKa2Wb4wnffhLCKg%3D%3D&v=v=1j6jndklPH8,1j6jndklPH8&_=0.3832331213056437")
+	DownloadFile("./assets/song.mp3", "https://drive.google.com/file/d/1VBiJPLfAUyCBKyCYuJ6b8ZdcL0A8K3me/view?usp=sharing")
 	DownloadFile("./assets/flag.gif", "https://upload.wikimedia.org/wikipedia/commons/2/2c/Animated_China_Flag.gif")
 	DownloadFile("./assets/xi.jpg", "https://i.kym-cdn.com/entries/icons/facebook/000/031/452/cover7.jpg")
 }

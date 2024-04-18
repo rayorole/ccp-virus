@@ -48,7 +48,8 @@ func main() {
 
 	openUrl("https://www.bilibili.com/video/BV1ji421f7Xr/?spm_id_from=333.1007.tianma.1-3-3.click")
 
-	// Clean up
 	<-done
+
+	// Clean up
 	fmt.Println("Ending...")
 }
